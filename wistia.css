@@ -1,0 +1,503 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-title{
+    padding: 20px 40px;
+    height: 120px;
+    border: 1px solid #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:300px;
+}
+.site-title-text{
+    margin-left: 5px;
+    width: 150px;
+    font-weight:600px;
+    font-size:38px;
+}
+.wistia-logo{
+    background:url("https://wistia.com/assets/footer/flags-14d2d8debcca03d446a1856617842b0f.svg");
+    position: relative;
+    top: 4px;
+    height:35px;
+    width:35px;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+.mid-nav-bar{
+    width: 910px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mid-navbar-top{
+    width: 1000px;
+    height: 60px;
+    padding-left:24px; 
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    align-items: center;
+}
+.mid-navbar-bottom{
+    width: 1000px;
+    height: 60px;
+    padding-left:20px; 
+    background-color:#f9f9f9;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    align-items: center;
+}
+.navbar-btn-top{
+    width:73px;
+    height:40px;
+    margin: 2px;
+    border: none;
+    color:#6c798b;
+    text-transform: capitalize;
+    font-size:14px;
+    background-color: inherit;
+    font-weight: bold;
+}
+.navbar-btn-top:hover{
+    width:73px;
+    height:40px;
+    margin: 2px;
+    border: none;
+    color:black;
+    text-transform: capitalize;
+    font-size:14px;
+    background-color: inherit;
+    font-weight: bold;
+}
+.navbar-btn-bottom{
+    width:95px;
+    height:40px;
+    margin: 2px;
+    border: none;
+    color:#6c798b;
+    text-transform: capitalize;
+    font-size:14px;
+    background-color: inherit;
+    font-weight: bold;
+}
+.navbar-btn-bottom:hover{
+    width:95px;
+    height:40px;
+    margin: 2px;
+    border: none;
+    color:black;
+    text-transform: capitalize;
+    font-size:14px;
+    background-color: inherit;
+    font-weight: bold;
+}
+.connect-button{
+    width:380px;
+    height: 120px;
+    border: none;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.connect-log{
+    width:50%;
+    height:100%;
+    border-right: none;
+    border: 1px solid #efefef;
+    color:#6c798b;
+    font-size:15px;
+    background-color: inherit;
+    font-weight: bold;
+}
+.connect-log:hover{
+    width:50%;
+    height:100%;
+    border-right: none;
+    border: 1px solid #efefef;
+    color:#6c798b;
+    font-size:15px;
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+.connect-sign{
+    width:50%;
+    height:100%;
+    border: 1px solid #efefef;
+    color:#3ea9f5;
+    font-size:15px;
+    background-color: inherit;
+    font-weight: bold;
+}
+.connect-sign:hover{
+    width:50%;
+    height:100%;
+    border: 1px solid #efefef;
+    color:#6c798b;
+    font-size:15px;
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+.video-add{
+    background-color:#c994a4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.video-text{
+    width: 550px;
+    margin-top: 165px;
+    margin-bottom: 165px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.video-title{
+    margin-left: 5px;
+    font-weight:400;
+    line-height:50px;
+    font-size:40px;
+    color: #363945;
+}
+.watch-video{
+    width:190px;
+    height:65px;
+    border: none;
+    border-radius:5px;
+    color:#363945;
+    font-size:20px;
+    background-color: white;
+    font-weight:600;
+}
+.watch-video:hover{
+    position: relative;
+    bottom: 5px;
+    width:190px;
+    height:65px;
+    border: none;
+    border-radius:5px;
+    color:#363945;
+    font-size:20px;
+    background-color: white;
+    box-shadow: 0px 5px #cccccc;
+    font-weight:600;
+}
+.wistia-services{
+    display: flex;
+}
+.box-services{
+    width: 33.3333%;
+    padding: 50px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.yellow{
+    background-color:#fed24a;
+}
+.green{
+    background-color:#51c29f;
+}
+.blue{
+    background-color:#3ea9f5;
+}
+.box-servece-title{
+    color:white;
+    font-size:23px;
+    font-weight: bold;
+    text-align: left; 
+}
+.box-service-paragraph{
+    color:#30323d;
+    font-size:20px;
+}
+.box-servece-link{
+    color:#30323d;
+    font-size:20px;
+    text-decoration: underline;
+}
+.box-servece-link:hover{
+    color:#30323d;
+    font-size:20px;
+    text-decoration: none;
+}
+.start-for-free{
+    margin-top: 25px;
+    width: 165px;
+    height:60px;
+    padding: 10px;
+    border: 1.5px solid #efefef;
+    border-radius:5px;
+    color:#2a2d35;
+    font-size:15px;
+    background-color: inherit;
+    font-weight:600;
+}
+.explore-and-learn{
+    margin-top: 25px;
+    width:165px;
+    height:60px;
+    padding: 10px;
+    border: 1.5px solid #efefef;
+    border-radius:5px;
+    color:#2a2d35;
+    font-size:15px;
+    background-color: inherit;
+    font-weight:600;
+}
+.start-for-free:hover{
+    background-color: white;
+    border: 1.5px solid white;
+    border-radius:5px;
+}
+.explore-and-learn:hover{
+    background-color:white;
+    border: 1.5px solid white;
+    border-radius:5px;
+}
+.wistia-partner{
+    width: 1300px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+}
+.wistia-partner-title{
+    width: 160px;
+    color:#9ca8b7;
+    font-size:17px;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin: auto;
+}
+.wistia-partner-logo{
+    width: 80%;
+    height: 200px;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.partner1{
+    background:url("https://wistia.com/assets/main/multi-product-homepage/Mailchimp-7ebe21d6e1a8e73dfaa0a01cb2747dd7.svg");
+    width:110px;
+    height: 110px;
+    background-repeat:no-repeat;
+    background-size: auto;
+}
+.partner2{
+    background:url("https://wistia.com/assets/main/multi-product-homepage/Moz-968d7370d103b9e8d54d8d6c5ccc25ef.svg");
+    width:210px;
+    height: 60px;
+    background-repeat:no-repeat;
+    background-size: auto;
+}
+.partner3{
+    background:url("https://wistia.com/assets/main/multi-product-homepage/Zendesk-b2d6a2287655dc487ea7de701df73ed0.svg");
+    width:120px;
+    height: 120px;
+    background-repeat:no-repeat;
+    background-size:auto;
+}
+.partner4{
+    background:url("https://wistia.com/assets/main/multi-product-homepage/Unbounce-f61750cbb6135bd4058243c8065f7652.svg");
+    width:110px;
+    height: 110px;
+    background-repeat:no-repeat;
+    background-size:auto;
+}
+.partner5{
+    background:url("https://wistia.com/assets/main/multi-product-homepage/Casper-a6409becb07edc79730cdf36cad9c4ad.jpg");
+    width:180px;
+    height: 50px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.wistia-functions{
+    margin:80px 200px;
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+.box-functions{ 
+    height: 450px;
+    width:350px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+.box-functions-title{
+    color:#363945;
+    font-size:18px;
+    font-weight: bold;
+  }
+.box-functions-paragraph{
+    color:#727171;
+    border:none;
+    font-size:15px;
+    line-height: 30px;
+    font-weight:600;
+  }
+.image-fonction1{
+    background:url("http://wistia.com/assets/main/multi-product-homepage/one-ten-one-hundred-series-2d339f485ef516fe44defed3eb881e85.jpg");
+    height:250px;
+    width:350px;
+    background-repeat:no-repeat;
+    background-size:cover; 
+  }
+.image-fonction2{
+    background:url("http://wistia.com/assets/main/multi-product-homepage/ab-testing-d6dbd218c72cfb3799332d67c3baee9a.png");
+    height:250px;
+    width:350px;
+    background-repeat:no-repeat;
+    background-size:cover; 
+  }
+.image-fonction3{
+    background:url("http://wistia.com/assets/main/multi-product-homepage/road-less-traveled-acaa9649794ba0c8f85388065c2c2f16.jpg");
+    height:250px;
+    width:350px;
+    background-repeat:no-repeat;
+    background-size:cover; 
+  }
+.box-functions-link{
+      text-decoration: underline;
+      font-size: 16px;
+      font-weight: bold;
+  }
+.bottom-bar-information{
+    height: 70px;
+    background-color: #e8e7e6;
+    color:#777777;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 22px 0px;
+}
+.bottom-bar-information-link{
+    height: 50px;
+    background-color: #e8e7e6;
+    color:#777777;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+.bottom-bar-information-link:hover{
+    height: 50px;
+    background-color: #e8e7e6;
+    color:#777777;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+.footer-site-plan{
+    background-color: #2a2d35;
+    display: flex;
+    flex-wrap:wrap;
+}
+.wistia-slogan{
+    width:40%;
+    height: 260px;
+    color: white;   
+    padding: 40px 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.wistia-slogan-text{
+    font-size: 22.5px;
+}
+.to-follow-wistia{
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.to-follow-wistia-link{
+    color: #3ea9f5;
+}
+.to-follow-wistia-link:hover{
+    color: #3ea9f5;
+    text-decoration: underline;
+}
+.footer-site-lists{
+    padding:50px 30px 30px 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.list-title{
+    color:white;
+    padding-bottom: 10px;
+    font-size:16px;
+    font-weight:bold;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-list-link{
+    color:#b2b9c1;
+    font-size:14px;
+}
+.bottom-list-link:hover{
+    color:#b2b9c1;
+    font-size:14px;
+    text-decoration: underline;
+}
+ul{
+    list-style-type: none;
+    width: 200px;
+}
+.product{
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.company{
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.learn{
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.support{
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.copyright{
+    color:#b2b9c1;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: center;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.copyright-link{
+    color:#868b92;
+}
+.copyright-link:hover{
+    color:#868b92;
+    text-decoration: underline;
+}
+hr{ 
+    background-color: #50545c;
+    width: 100%;
+    margin:50px;
+} 
